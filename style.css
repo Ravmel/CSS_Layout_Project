@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    /*#18d0b8*  #4f8fe2 * #303b47  * #dcf8f6  */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 250px;
+    margin-right: 250px;
+    border: 1px solid red;
+    /*width: 100vh;*/
+}
+
+.navigation {
+
+    border: 1px solid yellowgreen;
+}
+
+.logo {
+
+    border: 2px solid blue;
+    /*height: 100px;*/
+    /*width: 50%;*/
+    background-image: url(images/logo-default-group-en.svg);
+    border: solid 2px;
+    text-shadow: white 0px 0px 2px;
+    font-size: 16px;
+    background-size: cover;
+}
+
+.logo-etoile {
+    margin-top: 3rem;
+    border: 1px solid red;
+}
+
+.makup {
+    color: #18d0b8;
+    font-size: 2rem;
+    margin-top: 2rem;
+    border: 1px solid red;
+}
+
+.makdown {
+    display: flex;
+    margin-top: 5rem;
+    border: 1px solid red;
+}
+
+.makdown_left {
+    border: 1px solid blue;
+}
+
+.makdown_right {
+    border: 1px solid blue;
+}
+
+.three_case {
+    display: flex;
+    margin-top: 5rem;
+    color: #fff;
+
+    border: 1px solid red;
+}
+
+.three_case_green {
+    background-color: #18d0b8;
+    height: 20rem;
+
+    border-radius: 10px;
+
+    border: 1px solid red;
+}
+
+.icon_patients {
+    margin: 2rem;
+
+    border: 1px solid red;
+}
+
+.three_case_bleu {
+    background-color: #4f8fe2;
+    height: 20rem;
+    border-radius: 10px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    border: 1px solid red;
+}
+
+.icon_doctor {
+    margin: 2rem;
+
+    border: 1px solid red;
+}
+
+.three_case_dark {
+    background-color: #303b47;
+    height: 20rem;
+    border-radius: 10px;
+
+    border: 1px solid red;
+}
+
+.icon_clinique {
+    margin: 2rem;
+
+    border: 1px solid red;
+}
+
+.sous_card {
+    display: flex;
+    margin-top: 3rem;
+
+    border: 1px solid green;
+}
+
+.sous_card-1 {
+    height: 100px;
+    width: 50%;
+
+    border: 1px solid black;
+}
+
+.sous_card-2 {
+    height: 100px;
+    width: 50%;
+
+    border: 1px solid black;
+}
